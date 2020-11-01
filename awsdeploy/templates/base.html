@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body>
+    {% block contents %}
+    {% endblock %}
+</body>
+
+<footer>
+
+    <hr style="margin-top: 5rem;width:100%;">
+
+    <h3><a href="{% url 'index' %}">go to index</a></h3>
+    <h3><a href="{% url 'ppl' %}">go to ppl</a></h3>
+    <h3><a href="{% url 'connection' %}">go to connection</a></h3>
+
+</footer>
+
+</html>
