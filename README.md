@@ -1,5 +1,5 @@
 # aws_deploypractice
 
-##deploy with aws, django
+## deploy with aws, django
 
-###practicing before re-deploying webeing project
+### practicing before re-deploying webeing project
